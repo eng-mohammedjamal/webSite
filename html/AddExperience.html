@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Experience </title>
+    <link rel="stylesheet" href="../Css/MyStyel.css">
+</head>
+<body>
+    <nav>
+        <div class="navlist">
+            <ul>
+                <li><a href="Home.html">Personal Information</a></li>
+                <li><a href="ViewCourses.html">Courses Information</a></li>
+                <li><a href="ViewExperience.html">Experiences Information</a></li>
+                <li><a href="AddCourse.html">Add Course</a></li>
+                <li><a href="AddExperience.html" style="color: #ffff;">Add Experience </a></li>
+            </ul>
+        </div>
+        <div class="navimg" >
+            <img src="../image/Azhar_blue_LOGO.png" alt="Azhar_blue_LOGO" >
+        </div>
+    </nav>
+    <div class="parent">
+        <div class="Experience">
+            <form action="">
+                <div class="Experience1">
+                <label for="course-name"> Experiences Category :</label>
+                <select name="Experiences Category" id="course-name">
+                    <option value="">Writing texts</option>
+                    <option value=" ">Presentations</option>
+                    <option value="">Java language</option>
+                </select>
+                </div>
+                
+                <div class="Experience1">
+                <label for="te1xt">Experiences Titel:</label>
+                <input type="text"  id="te1xt">
+                </div>
+                
+                <div class="Experience1">
+                <label for="start">Start month:</label>
+                <input type="month"  value="yyyy/mm" id="start">
+                </div>
+                
+                <div class="Experience1">
+                <label for="end">End month :</label>
+                <input type="month" id="end">
+                </div>
+                
+                <div class="Experience1">
+                    <label for="inst">Institution : </label>
+                <input type="text" id="inst">
+                </div>
+                
+                <div class="Experience1">
+                    <label for="notse"> Description  : </label>
+                <textarea name="" id="notse" cols="70" rows="5"></textarea>
+                </div>
+                <div class="Experience button">
+                    <input type="submit" name="Save" value="Save">
+                    <input type="reset" name="Reset" value="Reset">
+                </div>
+                
+            </form>
+        </div>
+        <div class="imgCours">
+            <img src="../image/experience.jpg" alt="">
+            
+        </div>
+    </div>
+    </section>
+</body>
+</html>
